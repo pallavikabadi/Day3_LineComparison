@@ -42,11 +42,11 @@ public class LineComparisonProblem {
             System.out.println("Two Lines are NOT Equal");
         
         //UC3
-        if (line1.compareTo(line2) == 0)
+        if (line.compareTo(line2) == 0)
             System.out.println("Two Lines are EQUAL");
-        else if (line1.compareTo(line2) > 0)
+        else if (line.compareTo(line2) > 0)
             System.out.println("Line1 is GREATER Than Line2");
-        else if (line1.compareTo(line2) < 0)
+        else if (line.compareTo(line2) < 0)
             System.out.println("Line1 is LESSER Than Line2");
 
     }
